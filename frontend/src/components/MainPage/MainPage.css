@@ -1,0 +1,37 @@
+.info-card {
+    background-color: #242424;
+    max-width: 519px;
+    min-height: 618px;
+    border-radius: 36px;
+    border: 2px solid #a8a8a8;
+    border-top: none;
+    justify-self: center;
+    justify-items: center;
+}
+
+.info-card-title {
+    border-radius: 33px;
+    border: 2px solid #a8a8a8;
+    padding: 5px;
+    border-bottom: 4px solid #a8a8a8;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-card-title h1 {
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 2px;
+    padding: 0 15px 0 100px;
+}
+
+.info-img {
+    background-image: url("../../assets/img/rotating-pigeon.gif");
+    display: flex;
+    width: 300px;
+    height: 215px;
+    border-radius: 36px;
+}
