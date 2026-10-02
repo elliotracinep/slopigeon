@@ -1,37 +1,39 @@
 .info-card {
     background-color: #242424;
     max-width: 519px;
-    min-height: 618px;
+    min-height: 450px;
     border-radius: 36px;
-    border: 2px solid #a8a8a8;
-    border-top: none;
+    border: 3px solid #a8a8a8;
     justify-self: center;
-    justify-items: center;
 }
 
-.info-card-title {
-    border-radius: 33px;
-    border: 2px solid #a8a8a8;
+.info-card-upper-section {
     padding: 5px;
-    border-bottom: 4px solid #a8a8a8;
     margin-bottom: 50px;
     display: flex;
-    justify-content: center;
+    background-color: #3a3a3a;
+    border-radius: 33px;
+    padding-top: 13px;
+
 }
 
-.info-card-title h1 {
+.info-card-upper-section h1 {
     font-family: var(--font-main);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: #ffffff;
     letter-spacing: 2px;
-    padding: 0 15px 0 100px;
+    padding: 0 15px 0 15px;
+    min-height: 35px;
 }
 
-.info-img {
+.info-card-lower-section {
     background-image: url("../../assets/img/rotating-pigeon.gif");
     display: flex;
     width: 300px;
     height: 215px;
     border-radius: 36px;
+    border: 2px solid #a8a8a8;
+    display: flex;
+    justify-self: center;
 }
